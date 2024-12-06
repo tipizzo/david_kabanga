@@ -52,7 +52,7 @@ const Hero = () => {
             {/* ---- Image of me ---- */}
             <div className="">
                 <img
-                    className="hidden md:block w-[250px] rounded-full border-4 border-yellow-300 hover:w-[252px] hover:border-yellow-100 cursor-grab transition-all duration-500"
+                    className="hidden md:block w-[250px] rounded-full border-4 border-yellow-300 hover:border-yellow-100 cursor-grab transition-all duration-500"
                     src={assets.profile}
                     alt="David Kabanga"
                 />

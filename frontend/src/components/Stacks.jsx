@@ -33,7 +33,7 @@ const Stacks = () => {
       <div className='scroll-container'>
         <div className='scroll-content'>
         <FontAwesomeIcon className='w-10 h-10 px-7 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500' icon={faHtml5} />
-        {[...icons, ...icons, ...icons, ...icons, ...icons ].map((icon, index) => (
+        {[...icons, ...icons ].map((icon, index) => (
           <FontAwesomeIcon key={index}
            className='w-10 h-10 px-7 pt-5 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500'
            icon={icon}

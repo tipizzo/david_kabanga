@@ -19,9 +19,9 @@ const Navbar = () => {
                 <li className='py-1 font-semibold'>SyntroGIS</li>
                 <hr className='border-none outline-none h-1 bg-yellow-300 w-4/5 m-auto hidden rounder-full cursor-pointer' />
             </NavLink> */}
-            <NavLink to='#contact'>
+            <a href='#Contact'>
             <li className='py-1 font-semibold hover:text-yellow-100 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500'>Contact</li>    
-            </NavLink>    
+            </a>  
         </ul>
     </div>
 
