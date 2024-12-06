@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Outfit;
+  background: #0B192C;
+}
+
+.active hr {
+  @apply block
+}
+
+::-webkit-scrollbar {
+  @apply hidden
+}
+
+#stacks .scroll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#stacks .scroll-content {
+  display: flex;
+  gap: 20px;
+  animation: scroll 200s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
