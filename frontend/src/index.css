@@ -39,3 +39,7 @@
     transform: translateX(-100%);
   }
 }
+
+:root {
+  --toastify-color-light: #fff;
+}

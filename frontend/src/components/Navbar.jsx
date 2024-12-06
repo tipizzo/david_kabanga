@@ -12,7 +12,7 @@ const Navbar = () => {
         <h3 onClick={() => navigate('/')} className='text-4xl font-bold text-gray-100 cursor-pointer flex-shrink-0 hover:translate-y-[-5px] transition-all duration-500'>D <span>K</span><span><FontAwesomeIcon className='text-yellow-300' icon={faCode} /></span></h3>
         <ul className='hidden sm:flex items-start gap-6 font-medium text-gray-100'>
             <NavLink to='/'>
-                <li className='py-1 font-semibold'>Home</li>
+                <li className='py-1 font-semibold hover:text-yellow-100 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500'>Home</li>
                 <hr className='border-none outline-none h-1 bg-yellow-300 w-4/5 m-auto hidden rounder-full cursor-pointer' />
             </NavLink>
            {/* <NavLink to='/projects'>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <hr className='border-none outline-none h-1 bg-yellow-300 w-4/5 m-auto hidden rounder-full cursor-pointer' />
             </NavLink> */}
             <NavLink to='#contact'>
-            <li className='py-1 font-semibold cursor-pointer'>Contact</li>    
+            <li className='py-1 font-semibold hover:text-yellow-100 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500'>Contact</li>    
             </NavLink>    
         </ul>
     </div>

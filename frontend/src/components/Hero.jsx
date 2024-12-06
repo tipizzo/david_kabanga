@@ -28,24 +28,31 @@ const Hero = () => {
                     I thrive on solving complex problems, learning emerging technologies, and collaborating with teams to deliver innovative solutions. My projects showcase my ability to create cutting-edge applications that balance functionality with a great user experience. 🚀
                 </p>
                 <div className="flex flex-row py-4 gap-5">
-                    <FontAwesomeIcon
-                        className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500 "
-                        icon={faGithub}
-                    />
-                    <FontAwesomeIcon
-                        className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500"
-                        icon={faLinkedin}
-                    />
-                    <FontAwesomeIcon
-                        className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500"
-                        icon={faX}
-                    />
+                    <a href='https://www.github.com/tipizzo/'>
+                        <FontAwesomeIcon
+                            className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500 "
+                            icon={faGithub}
+                        />
+                    </a>
+                    <a href='https://www.linkedin.com/in/kabanga-david/'>
+                        <FontAwesomeIcon
+                            className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500"
+                            icon={faLinkedin}
+                        />
+                    </a>
+                    <a href='https://x.com/davidkabanga1'>
+                        <FontAwesomeIcon
+                            className="w-5 md:w-6 h-5 md:h-6 cursor-pointer hover:text-yellow-300 flex-shrink-0 hover:translate-y-[-3px] transition-all duration-500"
+                            icon={faX}
+                        />
+                    </a>
+
                 </div>
             </div>
             {/* ---- Image of me ---- */}
             <div className="">
                 <img
-                    className="hidden md:block w-[250px] rounded-full border-4 border-yellow-300"
+                    className="hidden md:block w-[250px] rounded-full border-4 border-yellow-300 hover:w-[252px] hover:border-yellow-100 cursor-grab transition-all duration-500"
                     src={assets.profile}
                     alt="David Kabanga"
                 />
