@@ -3,7 +3,7 @@ import React from 'react';
 const SyntroGisInstructions = () => {
   return (
     <div className="flex flex-col items-center gap-4 p-6 bg-gray-900 text-white rounded-lg shadow-md w-11/12 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-medium my-10">Introducing <span className='font-bold text-yellow-300'>SyntroGIS</span></h1>
+      <h1 className=" text-3xl font-medium my-10">Introducing <span className='font-bold text-yellow-300'>SyntroGIS</span></h1>
       <p className="text-lg text-gray-300 text-center">
       Syntro is a lightweight React library designed to streamline the creation of GIS applications. It focuses on integrating map functionalities, spatial data handling, and visualizations into React apps with minimal boilerplate.
         Follow the instructions below to get started:
